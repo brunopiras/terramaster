@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##V 0.1
 # 1. PATH DI SISTEMA
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
@@ -14,11 +14,11 @@ declare -A SENSORS
 SENSORS["fan"]="Ventola|RPM|mdi:fan"
 SENSORS["cpu"]="Carico CPU|%|mdi:cpu-64-bit"
 SENSORS["ram"]="Utilizzo RAM|%|mdi:memory"
-SENSORS["storage_v1"]="Volume 1|%|mdi:harddisk|data_size"
-SENSORS["storage_v2"]="Volume 2|%|mdi:harddisk|data_size"
+SENSORS["storage_v1"]="Volume 1|%|mdi:harddisk"
+SENSORS["storage_v2"]="Volume 2|%|mdi:harddisk"
 SENSORS["cpu_temp"]="Temp CPU|°C|mdi:thermometer-high|temperature"
 SENSORS["sys_temp"]="Temp Sistema|°C|mdi:thermometer|temperature"
-SENSORS["uptime"]="Uptime| |mdi:clock-outline|duration"
+SENSORS["uptime"]="Uptime| |mdi:clock-outline"
 SENSORS["temp_sda"]="Temp Disco A|°C|mdi:thermometer|temperature"
 SENSORS["hours_sda"]="Ore Disco A|h|mdi:timer-sand|duration"
 SENSORS["net_down"]="Download|MB/s|mdi:download-network|data_rate"
